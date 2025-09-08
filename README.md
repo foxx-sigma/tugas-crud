@@ -15,13 +15,13 @@ Data siswa disimpan dalam array
 
 ## 🔗 Daftar Endpoint
 
-| Method | Endpoint       | Deskripsi                          |
-|--------|----------------|------------------------------------|
-| GET    | `/siswa`       | Menampilkan semua todo             |
-| GET    | `/siswa/:nisn` | Menampilkan todo berdasarkan ID    |
-| POST   | `/siswa`       | Menambah todo baru                 |
-| PUT    | `/siswa/:nisn` | Mengupdate todo berdasarkan ID     |
-| DELETE | `/siswa/:nisn` | Menghapus todo berdasarkan ID      |
+| Method | Endpoint       | Deskripsi                                  |
+|--------|----------------|------------------------------------        |
+| GET    | `/siswa`       | Menampilkan semua siswa                    |
+| GET    | `/siswa/:nisn` | Menampilkan todo siswa berdasarkan NISN    |
+| POST   | `/siswa`       | Menambah data siswa baru baru              |
+| PUT    | `/siswa/:nisn` | Mengupdate data siswa berdasarkan NISN     |
+| DELETE | `/siswa/:nisn` | Menghapus data siswa berdasarkan NISN      |
 
 ---
 
